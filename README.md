@@ -45,6 +45,15 @@ Designed for **civil engineering students**, **surveying professors**, and **fie
   - Telescope Plunge: 180° transit between Face 1 (Direct) and Face 2 (Reverse) with automatic vertical circle zenith angle index reversal ($360^\circ - ZA$).
 * **Audio Synthesizer Engine:** Web Audio API sound synthesis providing authentic mechanical key clicks, double-beeps for zero-set/EDM, and proximity beeps for stake-out.
 * **Data Memory Manager:** View recorded points and export job coordinates directly to **CSV** format.
+* **Progressive Web App (PWA):** Offline Service Worker caching and 1-click device installation on desktop PCs, laptops, Android phones, and iOS.
+* **Mobile & Tablet Optimized:** Frosted-glass desktop site guidance popup and smooth horizontal pan container for small screens.
+
+---
+
+## 📱 Mobile & PWA Device Installation
+
+- **Device Installation:** Click the **"Install App"** button in the header bar or your browser's address bar to install the simulator natively on Windows, macOS, ChromeOS, or Android.
+- **Mobile Browsing:** Designed to maintain the physical faceplate's exact dimensions. On mobile devices, users can pan horizontally, rotate to **Landscape**, or tap the browser menu (three dots `⋮` in Chrome or `aA` in Safari) and select **"Desktop site"** for an authentic desktop instrument layout.
 
 ---
 

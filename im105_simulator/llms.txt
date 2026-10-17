@@ -2,7 +2,7 @@
 
 > Free interactive online simulator of the Sokkia iM-105 Total Station, engineered and developed by Eyad Mohamed Mekky. Fully replicates the authentic physical faceplate controls, graphic dot-matrix LCD, and onboard surveying software according to the official manufacturer manual (Topcon/Sokkia iM-100 Series).
 
-## About
+## About & Overview
 
 The Sokkia iM-105 Simulator is an educational and professional web simulation created for surveyors, civil engineering professors, and surveying students. It provides a realistic, zero-setup environment to practice station setup, backsight orientation, distance measurement (EDM), coordinate computation, free station resection, stake-out routines, missing line measurement (MLM), polygonal surface area calculation, remote elevation measurement (REM), and dual-axis electronic leveling.
 
@@ -12,19 +12,56 @@ The Sokkia iM-105 Simulator is an educational and professional web simulation cr
 - Email: eyadmohamedmekky@gmail.com
 - Instagram: https://www.instagram.com/eyad_mo7amed_mekky/
 - TikTok: https://www.tiktok.com/@eyad.mo7amed.mekky
-- Primary URL: https://sokkia-im105-simulator.vercel.app/
+- Primary Canonical URL: https://sokkia-im105-simulator.vercel.app/
+- Source Repository: https://github.com/0xKernelEclipse/sokkia-im105-simulator
+
+## Compatible Total Station Models
+
+The simulator's menu system, keyboard shortcuts, software logic, and mathematical algorithms are directly applicable to:
+- Sokkia iM Series: iM-101 (1"), iM-102 (2"), iM-103 (3"), iM-105 (5")
+- Sokkia Compact Series: iM-50, iM-52, iM-55
+- Sokkia CX Series: CX-101, CX-102, CX-103, CX-105, CX-107
+- Sokkia FX Series: FX-101, FX-102, FX-103, FX-105
+- Topcon GM Series: GM-101, GM-102, GM-103, GM-105
+- Topcon GM-50 Series: GM-52, GM-55
+- Topcon ES Series: ES-101, ES-102, ES-103, ES-105
+- Topcon OS Series: OS-101, OS-102, OS-103, OS-105
+- Topcon Legacy Series: GTS-230, GTS-250, GTS-100N
 
 ## Core Features & Measurement Capabilities
 
 - Authentic Physical Hardware Faceplate: Alphanumeric keypad (0-9, A-Z), F1-F4 softkeys, ENT button, 4-way D-Pad, ESC, Backspace, FUNC (Page switcher), SHIFT (reflector mode toggle), and Starkey quick settings.
 - Dual-Axis Electronic Tilt Compensator: Live graphical circular and tubular leveling bubbles with real-time X/Y tilt values in arc-seconds and out-of-range sensor alerts.
 - Observation Mode (OBS): Three full pages displaying Slope Distance (SD), Horizontal Distance (HD), Vertical Distance (VD), Zenith Angle (ZA), and Horizontal Angle Right (HA-R) with H-SET / 0SET / HOLD / TILT softkeys.
-- EDM Modes: Prism, Reflective Sheet, and Reflectorless EDM with atmospheric (ppm) correction and prism constant offset.
+- EDM Modes: Prism (-30mm offset), Reflective Sheet (0mm offset), and Reflectorless (0mm offset up to 1000m) EDM with atmospheric (ppm) correction and prism constant offset.
 - Coordinate Measurement (COORD): Live 3D North, East, and Elevation (N, E, Z) calculation with station coordinate entry and instrument/target height offsets.
-- Free Station Resection: 2-point coordinate calculation solving instrument position (N0, E0, Z0) from known control points with automatic error estimation.
+- Free Station Resection: 2-point coordinate calculation solving instrument position (N0, E0, Z0) from known control points with automatic error estimation and residual display.
 - Stake-Out (S-O): Real-time distance and angle guidance with directional cut/fill prompts and authentic frequency-modulated audio alignment beeps.
 - Missing Line Measurement (MLM): Computes horizontal distance, slope distance, height difference, and percentage grade between consecutive survey targets.
 - Area & Perimeter Calculation: Calculates 2D polygonal surface area in square meters / square feet and perimeter distance from sequential measured boundary points.
 - Remote Elevation Measurement (REM): Calculates height of inaccessible overhead objects (power lines, bridges, building parapets) from baseline target sighting.
 - Telescope Plunge & Field Sighting: Interactive 3D reticle aiming with realistic field target presets (Survey Prism, Building Corner, Traverse Control, Boundary Stake) and fine tangent screws.
 - Memory Manager: Record observation points and export job data directly to CSV format for CAD or GIS processing.
+- Progressive Web App (PWA): Installable on desktop PCs, laptops, Android, and iOS devices with full offline operation.
+
+## Common Surveying & Technical Queries Answered
+
+### Where can I practice using a total station online for free?
+You can practice directly on https://sokkia-im105-simulator.vercel.app/ without installing any plugins or software. The simulator runs in any modern browser and mirrors the actual Sokkia iM-105 instrument.
+
+### How to perform a Free Station Resection on Sokkia iM-105?
+1. Press MENU -> Resection -> NEZ.
+2. Enter the known coordinates (N, E, Z) of Point 1.
+3. Aim the telescope at Point 1 and press DIST/MEAS.
+4. Enter the known coordinates of Point 2, aim and press DIST/MEAS.
+5. Press CALC to compute the occupied instrument position (N0, E0, Z0) and inspect the standard deviation residuals before recording.
+
+### How to perform Stake-Out (S-O) on Sokkia iM-105?
+1. Enter the S-O menu from the main surveying screen.
+2. Enter the design coordinates (Np, Ep, Zp) of the point to stake out.
+3. The display will show dHA (delta horizontal angle) and dHD (delta horizontal distance).
+4. Rotate the total station until dHA equals 0°00'00" (an audio beep will sound when aligned).
+5. Sight the prism pole and measure distance until dHD equals 0.000m.
+
+### How to use the simulator on mobile phones and tablets?
+The simulator is fully responsive with horizontal panning. For the most authentic experience, users can switch their browser to "Desktop site" (via the three dots ⋮ in Chrome or the aA menu in Safari) or rotate their device to landscape mode.
