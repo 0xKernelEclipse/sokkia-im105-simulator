@@ -1,0 +1,14 @@
+# Large binaries and firmware archives
+*.zip
+*.bin
+*.elf
+im_series_optical_firmware_v32/
+
+# Python cache & temp files
+__pycache__/
+*.py[cod]
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini

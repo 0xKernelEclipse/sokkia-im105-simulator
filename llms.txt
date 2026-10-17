@@ -1,0 +1,30 @@
+# Sokkia iM-105 Total Station Simulator
+
+> Free interactive online simulator of the Sokkia iM-105 Total Station, engineered and developed by Eyad Mohamed Mekky. Fully replicates the authentic physical faceplate controls, graphic dot-matrix LCD, and onboard surveying software according to the official manufacturer manual (Topcon/Sokkia iM-100 Series).
+
+## About
+
+The Sokkia iM-105 Simulator is an educational and professional web simulation created for surveyors, civil engineering professors, and surveying students. It provides a realistic, zero-setup environment to practice station setup, backsight orientation, distance measurement (EDM), coordinate computation, free station resection, stake-out routines, missing line measurement (MLM), polygonal surface area calculation, remote elevation measurement (REM), and dual-axis electronic leveling.
+
+## Author & Contact
+
+- Author: Eyad Mohamed Mekky
+- Email: eyadmohamedmekky@gmail.com
+- Instagram: https://www.instagram.com/eyad_mo7amed_mekky/
+- TikTok: https://www.tiktok.com/@eyad.mo7amed.mekky
+- Primary URL: https://sokkia-im105.vercel.app/
+
+## Core Features & Measurement Capabilities
+
+- Authentic Physical Hardware Faceplate: Alphanumeric keypad (0-9, A-Z), F1-F4 softkeys, ENT button, 4-way D-Pad, ESC, Backspace, FUNC (Page switcher), SHIFT (reflector mode toggle), and Starkey quick settings.
+- Dual-Axis Electronic Tilt Compensator: Live graphical circular and tubular leveling bubbles with real-time X/Y tilt values in arc-seconds and out-of-range sensor alerts.
+- Observation Mode (OBS): Three full pages displaying Slope Distance (SD), Horizontal Distance (HD), Vertical Distance (VD), Zenith Angle (ZA), and Horizontal Angle Right (HA-R) with H-SET / 0SET / HOLD / TILT softkeys.
+- EDM Modes: Prism, Reflective Sheet, and Reflectorless EDM with atmospheric (ppm) correction and prism constant offset.
+- Coordinate Measurement (COORD): Live 3D North, East, and Elevation (N, E, Z) calculation with station coordinate entry and instrument/target height offsets.
+- Free Station Resection: 2-point coordinate calculation solving instrument position (N0, E0, Z0) from known control points with automatic error estimation.
+- Stake-Out (S-O): Real-time distance and angle guidance with directional cut/fill prompts and authentic frequency-modulated audio alignment beeps.
+- Missing Line Measurement (MLM): Computes horizontal distance, slope distance, height difference, and percentage grade between consecutive survey targets.
+- Area & Perimeter Calculation: Calculates 2D polygonal surface area in square meters / square feet and perimeter distance from sequential measured boundary points.
+- Remote Elevation Measurement (REM): Calculates height of inaccessible overhead objects (power lines, bridges, building parapets) from baseline target sighting.
+- Telescope Plunge & Field Sighting: Interactive 3D reticle aiming with realistic field target presets (Survey Prism, Building Corner, Traverse Control, Boundary Stake) and fine tangent screws.
+- Memory Manager: Record observation points and export job data directly to CSV format for CAD or GIS processing.

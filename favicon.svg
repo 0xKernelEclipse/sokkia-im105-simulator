@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#181a1f"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#2e323b" stroke-width="2"/>
+  
+  <!-- Optical Target Outer Circle -->
+  <circle cx="32" cy="32" r="24" fill="none" stroke="#df4433" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="14" fill="#22262e" stroke="#3d4350" stroke-width="1.5"/>
+  <circle cx="32" cy="32" r="5" fill="#df4433"/>
+  <circle cx="32" cy="32" r="1.5" fill="#ffffff"/>
+
+  <!-- Crosshair Reticle Lines with Tick Marks -->
+  <line x1="8" y1="32" x2="26" y2="32" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="38" y1="32" x2="56" y2="32" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="32" y1="8" x2="32" y2="26" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="32" y1="38" x2="32" y2="56" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Stadia Ticks -->
+  <line x1="20" y1="29" x2="20" y2="35" stroke="#a0a8b4" stroke-width="1.2"/>
+  <line x1="44" y1="29" x2="44" y2="35" stroke="#a0a8b4" stroke-width="1.2"/>
+  <line x1="29" y1="20" x2="35" y2="20" stroke="#a0a8b4" stroke-width="1.2"/>
+  <line x1="29" y1="44" x2="35" y2="44" stroke="#a0a8b4" stroke-width="1.2"/>
+</svg>

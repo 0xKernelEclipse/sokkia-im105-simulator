@@ -1,0 +1,42 @@
+{
+  "name": "Sokkia iM-105 Total Station Simulator",
+  "short_name": "Sokkia iM105",
+  "description": "Free interactive online simulator of the Sokkia iM-105 Total Station with onboard surveying software, dual-axis compensator, and physical controls by Eyad Mohamed Mekky.",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#16171a",
+  "theme_color": "#16171a",
+  "orientation": "any",
+  "categories": ["education", "engineering", "utilities"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
