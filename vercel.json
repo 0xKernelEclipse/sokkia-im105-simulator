@@ -37,7 +37,7 @@
       ]
     },
     {
-      "source": "/(robots.txt|sitemap.xml|llms.txt|manifest.webmanifest|google4041cbacfe2521c6.html)",
+      "source": "/(robots.txt|sitemap.xml|llms.txt|manifest.webmanifest|google4041cbacfe2521c6.html|BingSiteAuth.xml)",
       "headers": [
         {
           "key": "Cache-Control",

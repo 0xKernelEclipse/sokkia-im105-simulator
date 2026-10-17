@@ -1,7 +1,7 @@
 # Technical SEO & Discoverability Audit Report
 **Project:** Sokkia iM-105 Total Station Simulator  
 **Author & Maintainer:** Eyad Mohamed Mekky  
-**Production Origin:** `https://sokkia-im105.vercel.app/`  
+**Production Origin:** `https://sokkia-im105-simulator.vercel.app/`  
 **Stack:** Vanilla HTML5, CSS3, ES6+ JavaScript (Zero-dependency, high performance)  
 **Date:** 2026-10-17  
 
@@ -21,7 +21,7 @@ This audit evaluates the Sokkia iM-105 Total Station Simulator across **Technica
 | **SEO-02** | **Missing Document `<h1>` Heading** | High (Technical SEO / A11y) | Header used generic unstyled `<div>` for title; 0 `<h1>` tags on page. | **RESOLVED**. Converted header title to semantic `<h1 class="title">` with model badge and description. |
 | **SEO-03** | **Missing Favicons & Web Manifest** | High (Google Search Eligibility) | No favicon link tags; Google Search requires minimum 48×48px square icon. | **RESOLVED**. Created `favicon.svg` (vector reticle), `favicon-48x48.png` (Google compliant), `apple-touch-icon.png` (180×180), and `manifest.webmanifest`. |
 | **SEO-04** | **Missing Social Sharing Image (`og:image`)** | High (CTR & Social Discovery) | Open Graph and Twitter cards had titles and descriptions but no image assets. | **RESOLVED**. Generated 1200×630 `og-image.png` with titanium chassis background, reticle preview, and brand typography. Added `og:image`, `og:image:width`, `og:image:height`, `twitter:image`. |
-| **SEO-05** | **Absence of Canonical XML Sitemap** | Critical (Crawl Efficiency) | No `sitemap.xml` existed in repository. | **RESOLVED**. Created valid XML sitemap conforming to `sitemaps.org` schema pointing to canonical `https://sokkia-im105.vercel.app/`. |
+| **SEO-05** | **Absence of Canonical XML Sitemap** | Critical (Crawl Efficiency) | No `sitemap.xml` existed in repository. | **RESOLVED**. Created valid XML sitemap conforming to `sitemaps.org` schema pointing to canonical `https://sokkia-im105-simulator.vercel.app/`. |
 | **SEO-06** | **AI Crawlers & Search Bot Accessibility** | High (Generative Engine Optimization) | Generic `robots.txt` lacked explicit directives for modern AI search engines. | **RESOLVED**. Configured `robots.txt` allowing `OAI-SearchBot`, `GPTBot`, `ChatGPT-User`, `ClaudeBot`, `PerplexityBot`, `Google-Extended`, `Bingbot`, and referencing sitemap. |
 | **SEO-07** | **Incomplete Structured Data (JSON-LD)** | Medium (Rich Snippet Eligibility) | Schema had basic WebApplication but lacked HowTo, BreadcrumbList, and image links. | **RESOLVED**. Implemented full `@graph` with `WebApplication`, `FAQPage` (4 real Q&As), `HowTo` (4-step operating guide), `BreadcrumbList`, and `EducationalResource`. |
 | **SEO-08** | **Text Content Crawlability & Semantics** | Medium (Passage Ranking & AI Citation) | Core functionality was encapsulated in interactive canvas/screen elements with limited plain text. | **RESOLVED**. Added semantic `<section class="sr-only">` with comprehensive technical specifications (accuracy, EDM modes, software routines, audience) for search spiders and screen readers. |
@@ -46,5 +46,5 @@ This audit evaluates the Sokkia iM-105 Total Station Simulator across **Technica
 
 ## 4. Remaining Limitations & External Dependencies
 
-1. **Production Domain Propagation:** The canonical URL is set to `https://sokkia-im105.vercel.app/`. If a custom domain (e.g. `sokkia-simulator.com`) is later bound in Vercel, the canonical URL, sitemap, and JSON-LD will need updating to match.
+1. **Production Domain Propagation:** The canonical URL is set to `https://sokkia-im105-simulator.vercel.app/`. If a custom domain (e.g. `sokkia-simulator.com`) is later bound in Vercel, the canonical URL, sitemap, and JSON-LD will need updating to match.
 2. **Search Console Verification:** Verification DNS record or HTML file must be authenticated by the site owner in Google Search Console and Bing Webmaster Tools upon live Vercel deployment.

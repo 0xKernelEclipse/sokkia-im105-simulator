@@ -12,7 +12,7 @@ The Sokkia iM-105 Simulator is an educational and professional web simulation cr
 - Email: eyadmohamedmekky@gmail.com
 - Instagram: https://www.instagram.com/eyad_mo7amed_mekky/
 - TikTok: https://www.tiktok.com/@eyad.mo7amed.mekky
-- Primary URL: https://sokkia-im105.vercel.app/
+- Primary URL: https://sokkia-im105-simulator.vercel.app/
 
 ## Core Features & Measurement Capabilities
 

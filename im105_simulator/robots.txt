@@ -1,6 +1,6 @@
 # ==============================================================================
 # Robots.txt for Sokkia iM-105 Total Station Simulator
-# Production Canonical: https://sokkia-im105.vercel.app/
+# Production Canonical: https://sokkia-im105-simulator.vercel.app/
 # ==============================================================================
 
 User-agent: *
@@ -51,4 +51,4 @@ User-agent: anthropic-ai
 Allow: /
 
 # Canonical XML Sitemap
-Sitemap: https://sokkia-im105.vercel.app/sitemap.xml
+Sitemap: https://sokkia-im105-simulator.vercel.app/sitemap.xml
