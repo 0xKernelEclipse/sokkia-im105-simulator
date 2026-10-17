@@ -1,6 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
     {
@@ -38,7 +37,7 @@
       ]
     },
     {
-      "source": "/(robots.txt|sitemap.xml|llms.txt|manifest.webmanifest)",
+      "source": "/(robots.txt|sitemap.xml|llms.txt|manifest.webmanifest|google4041cbacfe2521c6.html)",
       "headers": [
         {
           "key": "Cache-Control",
